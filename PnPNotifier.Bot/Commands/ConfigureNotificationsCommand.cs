@@ -23,7 +23,7 @@ namespace PnPNotifier.Bot.Commands
         {
             var channelId = turnContext.Activity.TeamsGetChannelId();
 
-            var notificationsEnabled = await _notificationsManager.IsNotificationsEnabledAsync(channelId);
+            var notificationsEnabled = await _notificationsManager.IsNotificationsEnabledAsync(channelId); // err
 
             var card = _cardManager.CreateCard(notificationsEnabled);
 

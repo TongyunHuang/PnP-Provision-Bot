@@ -6,9 +6,9 @@
   "packageName": "pnp-notifier-dev",
   "developer": {
     "name": "Contoso",
-    "websiteUrl": "https://dbbbbc9b8cce.ngrok.io",
-    "privacyUrl": "https://dbbbbc9b8cce.ngrok.io/privacy.html",
-    "termsOfUseUrl": "https://dbbbbc9b8cce.ngrok.io/tou.html"
+    "websiteUrl": "https://express.ngrok.io",
+    "privacyUrl": "https://express.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://express.ngrok.io/tou.html"
   },
   "name": {
     "short": "PnP Notifier [DEV]",
@@ -27,7 +27,7 @@
   "staticTabs": [],
   "bots": [
     {
-      "botId": "3529a92d-ea40-4183-9971-1f7b66318c69",
+      "botId": "5413174b-852c-42e4-a1db-6f032e576fad",
       "isNotificationOnly": false,
       "scopes": [
         "team"
@@ -54,7 +54,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "dbbbbc9b8cce.ngrok.io"
+    "express.ngrok.io"
   ],
   "showLoadingIndicator": false,
   "isFullScreen": false

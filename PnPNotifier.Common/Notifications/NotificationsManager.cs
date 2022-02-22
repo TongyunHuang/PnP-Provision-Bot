@@ -23,7 +23,7 @@ namespace PnPNotifier.Common.Notifications
             {
                 return false;
             }
-
+            System.Diagnostics.Debug.WriteLine(channelId);
             return notifications.NotificationsData.Any(n => n.ChannelId.Equals(channelId, StringComparison.OrdinalIgnoreCase));
         }
 

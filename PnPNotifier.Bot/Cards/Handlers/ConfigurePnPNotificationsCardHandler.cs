@@ -52,7 +52,7 @@ namespace PnPNotifier.Bot.Cards.Handlers
 
             var updatedActivity = MessageFactory.Attachment(card.ToAttachment());
             updatedActivity.Id = turnContext.Activity.ReplyToId;
-            await turnContext.UpdateActivityAsync(updatedActivity, cancellationToken);
+            await turnContext.UpdateActivityAsync(updatedActivity, cancellationToken);// err 
         }
 
         private async Task OnDisableNotifications(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
